@@ -1,10 +1,3 @@
-setTimeout(() => {
-  console.log("Async Timer");
-}, 2000);
-console.log("Start");
-
-console.log("End");
-
 const { readFile, writeFile } = require("fs");
 
 console.log("Start");
